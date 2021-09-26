@@ -1,0 +1,32 @@
+.tours{
+    background: #fff;
+    width: 50%;
+    margin: 0 auto 30px;
+}
+.tours .toursImage img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.tours .toursTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+}
+.tours .toursTitle span{
+    color: hsl(205, 78%, 60%);
+    font-size: 14px;
+    font-weight: 500;
+}
+.tours  p {
+    padding: 0 20px 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.tours  p button{
+    margin-left: 15px;
+    color: hsl(205, 78%, 60%);
+    font-size: 16px;
+    font-weight: 500;
+}
